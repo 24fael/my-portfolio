@@ -10,6 +10,8 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- ext css -->
@@ -18,27 +20,33 @@
     <title>Earl Rafael Diaz | Web Developer</title>
 </head>
 <body class="orange">
-    
+    <div class="icon-bar">
+      <a href="https://www.facebook.com/earltherafael" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.twitter.com/earlrafael_" target="_blank" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/earthrafael" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/diazearlrafael/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    </div>
+
 <nav class="white z-depth-0">
     <div class="nav-wrapper">
     <p class="brand-logo orange-text" id="myname">EARL RAFAEL DIAZ</p>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons black-text">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="waves-effect"><a href="#row-one" class="green-text">About</a></li>
-            <li class="waves-effect"><a href="#row-two" class="green-text">My Works</a></li>
-            <li class="waves-effect"><a href="#row-three" class="green-text">Technologies</a></li>
+            <li class="waves-effect"><a href="#row-one" class="black-text">About</a></li>
+            <li class="waves-effect"><a href="#row-two" class="black-text">Works</a></li>
+            <li class="waves-effect"><a href="#row-three" class="black-text">Technologies I Use</a></li>
         </ul>
     </div>
 </nav>
 <ul class="sidenav" id="mobile-demo">
     <li class=""><a href="#row-one">About</a></li>
-    <li class=""><a href="#row-two">My Works</a></li>
-    <li class=""><a href="#row-three">Technologies</a></li>
+    <li class=""><a href="#row-two">Works</a></li>
+    <li class=""><a href="#row-three">Technologies I Use</a></li>
 </ul>
 <div class="container boxone white lighten-1 z-depth-3">
     <!-- start of the zeroth row -->
-    <div class="row" id="row-zero">
-        <img src="./assets/images/profpic.jpeg" alt="a picture of me" id="prof-pic">
+    <div class="row center-align" id="row-zero">
+        <img src="./assets/images/profpic.jpg" alt="a picture of me" id="prof-pic">
     </div>
     <!-- start of first row-->
     <div class="row" id="row-one">
@@ -65,7 +73,7 @@
                 <p>My very first capstone project including the use of front-end technologies like HTML, CSS and Bootstrap 4. It is an information site catered towards android enthusiasts who want to get more out of their mobile operating system.</p>
                 </div>
                 <div class="card-action">
-                <a href="https://fael_.gitlab.io/capstone1" target="_blank" class="green-text">Visit Site</a>
+                <a href="https://fael_.gitlab.io/capstone1" target="_blank" class="orange-text">Visit Site</a>
                 </div>
             </div>
             
@@ -78,7 +86,7 @@
                 <p>My second capstone project which includes both front-end and back-end technologies like HTML, CSS, PHP, Bootstrap 4, Laravel and MySQL. The site will be used by the company to improve their income in the years to come. It was designed with simplicity and functionality in mind.</p>
                 </div>
                 <div class="card-action">
-                <a href="#" class="green-text">Visit Site</a>
+                <a href="#" class="orange-text">Visit Site</a>
                 </div>
             </div>
             
@@ -91,7 +99,7 @@
                 <p>My third capstone project which will include JavaScript frameworks like React and Node. Currently Under Construction</p>
                 </div>
                 <div class="card-action">
-                <a href="#" class="green-text">Visit Site</a>
+                <a href="#" class="orange-text">Visit Site</a>
                 </div>
             </div>   
         <!-- end of cards -->
@@ -120,26 +128,14 @@
         </div>
     </div>
 </div>
-<footer class="page-footer white lighten-1">
+<footer class="page-footer white lighten-1" id="page-footer">
     <div class="container">
-      <div class="row">
-        <div class="col s12 m6">
-            <h3 class="black-text center-align">Reach me!</h3>
-        </div>
-        <div class="col s12 m6">
-            <ul class="center-align">
-                <li><a href="https://www.facebook.com/earltherafael" target="_blank">Facebook</a></li>
-                <li><a href="https://www.linkedin.com/diazearlrafael" target="_blank">LinkedIn</a></li>
-                <li><a href="https://www.twitter.com/earlrafael_" target="_blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com/earthrafael" target="_blank">Instagram</a></li>
-            </ul>
+      <div class="row" id="email-row">
+        <div class="col s12">
+            <h4 class="black-text center-align" id="reach-txt">Reach me!</h4>
+            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=diazearlrafael@gmail.com&su=Hello, Earl!&body=Input message here&tf=1" class="btn black waves-effect waves-light pulse" id="email-txt"><span>diazearlrafael@gmail.com</span><i class="material-icons left">mail</i></a>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright black">
-        <div class="container">
-            <p class="center-align">All Rights Reserved ©2020.</p>
-        </div>
     </div>
   </footer>
 
