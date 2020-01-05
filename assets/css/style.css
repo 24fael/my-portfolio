@@ -94,7 +94,7 @@ html, body {
   margin-bottom: 0px;
   margin-top: 5px;
   margin-left: 10px;
-  font-size: 4.5rem;
+  font-size: 5vw;
   font-family: 'Anton', sans-serif;
 }
 
@@ -117,26 +117,32 @@ html, body {
 }
 
 #about-desc {
-  font-size: 2rem;
+  font-size: 2.3vw;
   font-family: 'Abril Fatface', cursive;
 }
 
 #tech-icon {
-  height: 100px;
-  width: 100px;
+  height: 50%;
+  width: 50%;
 }
 
 #icon-col {
   padding: 30px;
 }
 
-#about-txt, #work-txt, #tech-txt, #icon-desc {
+#about-txt, #work-txt, #tech-txt {
   font-family: 'Abril Fatface', cursive;
+  font-size: 4vw;
+}
+
+#icon-desc {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2vw;
 }
 
 #prof-pic {
-  height: 25rem;
-  width: 25rem;
+  height: 50%;
+  width: 50%;
   border-radius: 100%;
   border: 2px solid black;
 }
@@ -169,10 +175,14 @@ html, body {
 #email-row {
   height: 18vh;
   margin-bottom: 0px;
-  padding-bottom: 15%;
+  padding-bottom: auto;
 }
 
 #soc-row {
   margin-bottom: 0px;
+}
+
+#cards {
+  margin-top: 10%;
 }
 /*# sourceMappingURL=style.css.map */
