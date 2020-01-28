@@ -170,6 +170,7 @@ html, body {
 
 #page-footer {
   padding: 0px;
+  margin-top: auto;
 }
 
 #email-row {
