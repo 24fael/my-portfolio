@@ -185,5 +185,10 @@ html, body {
 
 #cards {
   margin-top: 10%;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#card-first {
+  font-family: 'Abril Fatface', cursive;
 }
 /*# sourceMappingURL=style.css.map */
